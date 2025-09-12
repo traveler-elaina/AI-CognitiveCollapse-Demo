@@ -76,7 +76,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 **4.运行应用：**
-```
+```python
 streamlit run demo_app.py
 ```
 _快速上手，只需 ```streamlit run demo_app.py``` 即可体验AI的认知极限。_
