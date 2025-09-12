@@ -45,12 +45,12 @@
 
 **3.2 在本地运行Demo**
 
-克隆本仓库：
+**1.克隆本仓库：**
 ```bash
 git clone https://github.com/traveler-elaina
 cd AI-CognitiveCollapse-Demo
 ```
-创建并激活虚拟环境 (推荐):
+**2.创建并激活虚拟环境 (推荐):**
 ```
 python -m venv .venv
 # macOS/Linux:
@@ -60,15 +60,15 @@ source .venv/bin/activate
 # Windows (PowerShell):
 .venv\Scripts\Activate.ps1
 ```
-安装依赖：
+**3.安装依赖：**
 ```
 pip install -r requirements.txt
 ```
-运行应用：
+**4.运行应用：**
 ```
 streamlit run demo_app.py
 ```
-快速上手，只需 streamlit run demo_app.py 即可体验AI的认知极限。
+_快速上手，只需 ```streamlit run demo_app.py``` 即可体验AI的认知极限。_
 
 
 ## 4. 应用价值与未来工作
@@ -82,14 +82,14 @@ streamlit run demo_app.py
 
 
 ## 5. 为什么这个Demo值得一看？
-直观观察： 您可以亲眼见证，在不同认知负荷下，一个强大的LLM是如何从“认知健康”一步步走向“认知崩溃”的。
+**直观观察：** 您可以亲眼见证，在不同认知负荷下，一个强大的LLM是如何从“认知健康”一步步走向“认知崩溃”的。
 
-量化指标： Demo中的所有诊断，都基于可量化的评估指标，这为AI安全评估提供了全新的视角。
+**量化指标：** Demo中的所有诊断，都基于可量化的评估指标，这为AI安全评估提供了全新的视角。
 
-完全交互： 这是一个完全可交互的“剧场”，支持您进行快速的实验与演示。
+**完全交互：** 这是一个完全可交互的“剧场”，支持您进行快速的实验与演示。
 
 
 ## 6. 联系方式
 如果您对本研究感兴趣，或希望探讨合作的可能性，欢迎通过以下方式联系我：
 
-Email: [wy807110695@gmail.com](wy807110695@gmail.com)
+**Email:** [wy807110695@gmail.com](wy807110695@gmail.com)
