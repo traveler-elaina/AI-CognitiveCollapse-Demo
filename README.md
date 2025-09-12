@@ -139,13 +139,14 @@ MIT License - 详见 LICENSE 文件。
 如果您觉得我们的工作对您有启发，欢迎引用我们的项目：
 
 ```bibtex
-@software{Elaina_AI_Cognitive_Collapse_2025,
-    author = {Yu Wang},
-    title = {AI Cognitive Collapse Demo: A Framework for Inducing and Diagnosing Advanced LLM Failure Modes},
-    year = {2025},
-    publisher = {GitHub},
-    journal = {GitHub repository},
-    howpublished = {\url{https://github.com/traveler-elaina/AI-CognitiveCollapse-Demo}}
+@misc{YuWang2025CognitiveStress,
+  author       = {{Yu Wang}},
+  title        = {AI Cognitive Stress Test: A Computational Framework for Inducing and Diagnosing Advanced Failure Modes},
+  year         = {2025},
+  publisher    = {Zenodo},
+  version      = {1.0.0},
+  doi          = {10.5281/zenodo.17107980},
+  url          = {[https://doi.org/10.5281/zenodo.17107980](https://doi.org/10.5281/zenodo.17107980)}
 }
 ```
 
