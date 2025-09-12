@@ -97,7 +97,7 @@ def load_data(filepath):
         return None
 
 
-data_df = load_data("mve_v7.4_colab_raw_data.csv")
+data_df = load_data("data/mve_v7.4_colab_raw_data.csv")
 
 # --- 3. 侧边栏交互控件 ---
 with st.sidebar:
