@@ -4,6 +4,7 @@
 > 🚀 _Live Demo: [点击此处，实时交互，探索AI的“认知崩溃](https://traveler-elaina-ai-cognitive-collapse-demo.streamlit.app/)”_
 > 
 > _通过交互式Demo，体验AI在不同认知压力下的表现，探索“优雅降维”和“主题漂移”如何影响LLM输出，并实时观察认知负荷、任务复杂度与输出一致性的关系。_
+> 
 > _注意：本Demo由Streamlit Community Cloud托管，永久有效。本地运行请参考下方使用说明。_
 
 
