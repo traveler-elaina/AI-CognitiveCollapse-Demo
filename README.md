@@ -46,7 +46,7 @@
 
 [https://traveler-elaina-ai-cognitive-collapse-demo.streamlit.app/](https://traveler-elaina-ai-cognitive-collapse-demo.streamlit.app/)
 
-![Demo示意图](./assets/demo_screenshot.png)
+![Demo示意图](./assets/demo_screenshot.gif)
 *示意：通过交互式Demo观察LLM在不同认知负荷下的输出变化*
 
 **3.2 在本地运行Demo**
