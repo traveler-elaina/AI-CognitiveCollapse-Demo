@@ -44,8 +44,10 @@
 *示意：通过交互式Demo观察LLM在不同认知负荷下的输出变化*
 
 **3.2 在本地运行Demo**
+
 克隆本仓库：
-```_bash_
+```
+_bash_
 git clone https://github.com/traveler-elaina
 cd AI-CognitiveCollapse-Demo
 ```
