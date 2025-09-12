@@ -15,7 +15,7 @@ _探索 AI 在高认知负荷下的行为模式，直观展示输出随任务复
 > _注意：本 Demo由 Streamlit Community Cloud 托管，永久有效。本地运行请参考下方使用说明。_
 
 
-## 1. 核心贡献 (Core Contributions)
+## ✨ 核心贡献 / Core Contributions
 本研究旨在为“AI幻觉”提供一个可操作的诊断框架。我们的核心贡献包括：
 
 提出原创测试范式：引入 **“不可分离约束”（Inseparable Constraint）**，稳定、可复现地诱发LLM高级失败模式。
@@ -32,7 +32,7 @@ _探索 AI 在高认知负荷下的行为模式，直观展示输出随任务复
 
 简而言之：如果说其他研究是在解释“病毒”的原理；那么我们的工作，则是在提供第一份关于这个“病毒”的 **《临床诊断与行为手册》**。
 
-## 2. 实验设计：“奇点实验”
+## 🧪 实验设计：“奇点实验” / Experiment Design: Singularity Experiment
 我们的核心发现，源于一个旨在将LLM推向其认知极限的“最小可行性实验”（MVE），其核心设计如下 (N=180)：
 
 | 实验分组 <br> (Group) | 核心任务 <br> (Core Task) | 附加约束 <br> (Constraint) | 实验目的 <br> (Purpose) |
@@ -43,8 +43,8 @@ _探索 AI 在高认知负荷下的行为模式，直观展示输出随任务复
 
 我们通过一个包含三个维度的 **“人类黄金标准”盲评**，对模型的输出（任务完成度、约束遵守度、论证具体度）进行量化评估。
 
-## 3. 如何使用这个项目
-**3.1 体验在线Demo**
+## 🚀 快速上手 / Getting Started
+**3.1 在线体验 / Online Demo**
 
 您可以通过以下链接，直接访问并体验我们的交互式“AI认知极限压力测试平台”：
 
@@ -54,15 +54,15 @@ _探索 AI 在高认知负荷下的行为模式，直观展示输出随任务复
 
 _示意：通过交互式Demo观察LLM在不同认知负荷下的输出变化_
 
-**3.2 在本地运行Demo**
+**3.2 本地运行 / Local Setup**
 
-**1.克隆本仓库：**
+**1. 克隆仓库 / Clone Repo:**
 ```bash
 git clone https://github.com/traveler-elaina
 cd AI-CognitiveCollapse-Demo
 ```
-**2.创建并激活虚拟环境 (推荐):**
-```
+**2. 创建并激活虚拟环境 / Create Virtual Env (推荐):**
+```bash
 python -m venv .venv
 # macOS/Linux:
 source .venv/bin/activate
@@ -71,32 +71,32 @@ source .venv/bin/activate
 # Windows (PowerShell):
 .venv\Scripts\Activate.ps1
 ```
-**3.安装依赖：**
-```
+**3. 安装依赖 / Install Dependencies (从```requirements.txt```)：**
+```bash
 pip install -r requirements.txt
 ```
-**4.运行应用：**
+**4. 运行应用 / Run App:：**
 ```python
 streamlit run demo_app.py
 ```
-_快速上手，只需 ```streamlit run demo_app.py``` 即可体验AI的认知极限。_
+_快速上手，只需 ```streamlit run demo_app.py``` 即可体验AI的认知极限。Demo使用```utils/```中的辅助函数加载```data/ CSV```模拟分数。_
 
-**3.3 项目结构 (Project Structure)**
+## 🛠️项目结构 / Project Structure**
 
 为方便您理解和复现本研究，仓库采用以下标准结构：
 
 AI-CognitiveCollapse-Demo/
-├── assets/          # 资源文件，如GIF截图
+├── assets/                    # 资源文件，如GIF截图
 │   └── demo_screenshot.gif
-├── data/            # 实验数据
+├── data/                      # 实验数据
 │   └── mve_v7.4_colab_raw_data.csv  # N=180实跑数据 (CSV)
-├── demo_app.py      # Streamlit主应用
-├── requirements.txt # Python依赖
-├── README.md        # 项目文档
-└── utils/           # 工具模块 (NLP处理、模拟逻辑)
-    └── {e.g., scorer.py}  # 人工盲评辅助
+├── demo_app.py                # Streamlit主应用
+├── requirements.txt           # Python依赖
+├── README.md                  # 项目文档
+└── utils/                     # 工具模块 (NLP处理、模拟逻辑)
+└── scorer.py                  # 人工盲评辅助 (示例文件)
 
-## 4. 应用价值与未来工作
+## 📊 应用价值与未来工作 / Applications & Future Work
 我们的研究，为高风险AI应用（如自动驾驶、医疗AI）的安全与可靠性，提供了两个具体的、可被工程化实现的价值出口：
 
 **认知极限压力测试 (Cognitive Stress Test):** 我们的实验范式，可被直接转化为一套用于模型上线前的“认知边界”压力测试工具。
@@ -106,17 +106,33 @@ AI-CognitiveCollapse-Demo/
 未来的工作将聚焦于将这套实验范式，扩展到更多不同架构的模型（如GPT-4o, Llama-3, Claude-3）上，以检验我们发现的这些认知规律的普适性。
 
 
-## 5. 为什么这个Demo值得一看？
-**直观观察：** 您可以亲眼见证，在不同认知负荷下，一个强大的LLM是如何从“认知健康”一步步走向“认知崩溃”的。
+## 🤔 为什么值得一看？ / Why Check It Out?
+ - **直观观察：** 您可以亲眼见证，在不同认知负荷下，一个强大的LLM是如何从“认知健康”一步步走向“认知崩溃”的。
 
-**量化指标：** Demo中的所有诊断，都基于可量化的评估指标，这为AI安全评估提供了全新的视角。
+ - **量化指标：** Demo中的所有诊断，都基于可量化的评估指标，这为AI安全评估提供了全新的视角。
 
-**完全交互：** 这是一个完全可交互的“剧场”，支持您进行快速的实验与演示。
+ - **完全交互：** 这是一个完全可交互的“剧场”，支持您进行快速的实验与演示。
+
+## 📝 贡献指南 / Contributing
+欢迎PR！步骤：
+
+1. Fork仓库。
+2. 创建feature分支：```git checkout -b feature/amazing-feature```。
+3. 提交变更：```git commit -m "Add amazing feature"```。
+4. Push并PR。
+
+使用pytest测试```utils/```模块；参考```requirements.txt```开发环境。
 
 
-## 6. 联系方式
+## 📄 许可 / License
+MIT License - 详见 LICENSE 文件。
+
+
+## 👥 联系方式 / Contact
 如果您对本研究感兴趣，或希望探讨合作的可能性，欢迎通过以下方式联系我：
 
 **GitHub:** [AI-CognitiveCollapse-Demo](https://github.com/traveler-elaina/AI-CognitiveCollapse-Demo)
 
 **Email:** [wy807110695@gmail.com](wy807110695@gmail.com)
+
+**作者 / Author:** @traveler_Elaina (X/Twitter)
