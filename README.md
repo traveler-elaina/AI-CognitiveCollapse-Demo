@@ -1,5 +1,6 @@
 # AI认知极限压力测试：一个用于诱发与诊断高级AI失败模式的计算框架
 **Cognitive Stress Test for LLMs: A Computational Framework for Inducing and Diagnosing Advanced Failure Modes**
+
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Streamlit](https://img.shields.io/badge/streamlit-%E2%9C%93-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
