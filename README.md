@@ -1,7 +1,7 @@
 # AI认知极限压力测试：一个用于诱发与诊断高级AI失败模式的计算框架
 **Cognitive Stress Test for LLMs: A Computational Framework for Inducing and Diagnosing Advanced Failure Modes**
 
-_探索AI在高认知负荷下的行为模式，直观量化“任务偏移”和“决策崩溃”_
+_探索 AI 在高认知负荷下的行为模式，直观展示输出随任务复杂度与认知负荷的变化_
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Streamlit](https://img.shields.io/badge/streamlit-%E2%9C%93-brightgreen)
@@ -52,7 +52,7 @@ _探索AI在高认知负荷下的行为模式，直观量化“任务偏移”�
 
 ![Demo示意图](./assets/demo_screenshot.gif)
 
-*示意：通过交互式Demo观察LLM在不同认知负荷下的输出变化*
+_示意：通过交互式Demo观察LLM在不同认知负荷下的输出变化_
 
 **3.2 在本地运行Demo**
 
