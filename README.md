@@ -84,7 +84,7 @@ _快速上手，只需 ```streamlit run demo_app.py``` 即可体验AI的认知�
 ## 🛠️项目结构 / Project Structure**
 
 为方便您理解和复现本研究，仓库采用以下标准结构：
-
+```
 AI-CognitiveCollapse-Demo/
 ├── assets/                    # 资源文件，如GIF截图
 │   └── demo_screenshot.gif
@@ -95,7 +95,7 @@ AI-CognitiveCollapse-Demo/
 ├── README.md                  # 项目文档
 └── utils/                     # 工具模块 (NLP处理、模拟逻辑)
 └── scorer.py                  # 人工盲评辅助 (示例文件)
-
+```
 ## 📊 应用价值与未来工作 / Applications & Future Work
 我们的研究，为高风险AI应用（如自动驾驶、医疗AI）的安全与可靠性，提供了两个具体的、可被工程化实现的价值出口：
 
