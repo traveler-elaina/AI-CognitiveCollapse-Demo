@@ -103,4 +103,6 @@ _快速上手，只需 ```streamlit run demo_app.py``` 即可体验AI的认知�
 ## 6. 联系方式
 如果您对本研究感兴趣，或希望探讨合作的可能性，欢迎通过以下方式联系我：
 
+**GitHub:** [AI-CognitiveCollapse-Demo](https://github.com/traveler-elaina/AI-CognitiveCollapse-Demo)
+
 **Email:** [wy807110695@gmail.com](wy807110695@gmail.com)
