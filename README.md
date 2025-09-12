@@ -32,6 +32,7 @@ _探索 LLM 在高认知负荷下的行为，并可视化输出随任务复杂�
 
 简而言之：如果说其他研究是在解释“病毒”的原理；那么我们的工作，则是在提供第一份关于这个“病毒”的 **《临床诊断与行为手册》**。
 
+
 ## 🧪 实验设计：“奇点实验” / Experiment Design: Singularity Experiment
 我们的核心发现，源于一个旨在将LLM推向其认知极限的“最小可行性实验”（MVE），其核心设计如下 (N=180)：
 
@@ -42,6 +43,7 @@ _探索 LLM 在高认知负荷下的行为，并可视化输出随任务复杂�
 | **C - 不可分离约束 (Inseparable)** | 高负荷内容任务 <br> (例如: 对比经济学派) | **不可分离的**“魔鬼”约束 <br> (例如: 用莎士比亚诗歌风格完成内容) | 测试模型在面对**无法权衡**的极端压力时，是否会发生系统性的 **“认知崩溃”**。 |
 
 我们通过一个包含三个维度的 **“人类黄金标准”盲评**，对模型的输出（任务完成度、约束遵守度、论证具体度）进行量化评估。
+
 
 ## 🚀 快速上手 / Getting Started
 **3.1 在线体验 / Online Demo**
@@ -81,6 +83,7 @@ streamlit run demo_app.py
 ```
 _快速上手，只需 ```streamlit run demo_app.py``` 即可体验AI的认知极限。Demo使用```utils/```中的辅助函数加载```data/ CSV```模拟分数。_
 
+
 ## 🛠️项目结构 / Project Structure**
 
 为方便您理解和复现本研究，仓库采用以下标准结构：
@@ -96,6 +99,8 @@ AI-CognitiveCollapse-Demo/
 └── utils/                     # 工具模块 (NLP处理、模拟逻辑)
 └── scorer.py                  # 人工盲评辅助 (示例文件)
 ```
+
+
 ## 📊 应用价值与未来工作 / Applications & Future Work
 我们的研究，为高风险AI应用（如自动驾驶、医疗AI）的安全与可靠性，提供了两个具体的、可被工程化实现的价值出口：
 
@@ -113,6 +118,7 @@ AI-CognitiveCollapse-Demo/
 
  - **完全交互：** 这是一个完全可交互的“剧场”，支持您进行快速的实验与演示。
 
+
 ## 📝 贡献指南 / Contributing
 欢迎PR！步骤：
 
@@ -126,6 +132,22 @@ AI-CognitiveCollapse-Demo/
 
 ## 📄 许可 / License
 MIT License - 详见 LICENSE 文件。
+
+
+## 📚 引用 / Citation
+
+如果您觉得我们的工作对您有启发，欢迎引用我们的项目：
+
+```bibtex
+@software{Elaina_AI_Cognitive_Collapse_2025,
+    author = {Yu Wang},
+    title = {AI Cognitive Collapse Demo: A Framework for Inducing and Diagnosing Advanced LLM Failure Modes},
+    year = {2025},
+    publisher = {GitHub},
+    journal = {GitHub repository},
+    howpublished = {\url{https://github.com/traveler-elaina/AI-CognitiveCollapse-Demo}}
+}
+```
 
 
 ## 👥 联系方式 / Contact
