@@ -86,13 +86,15 @@ _快速上手，只需 ```streamlit run demo_app.py``` 即可体验AI的认知�
 为方便您理解和复现本研究，仓库采用以下标准结构：
 
 AI-CognitiveCollapse-Demo/
-
-├── assets/             # 存放图片、GIF等静态资源
-├── data/               # 存放实验数据（如 mve_v7.4_colab_raw_data.csv）
-├── demo_app.py         # Streamlit 可交互Demo的主应用入口
-├── requirements.txt    # 项目运行所需的Python依赖列表
-├── README.md           # 您正在阅读的项目说明文档
-└── utils/              # (可选) 存放数据处理、NLP指标计算等工具函数脚本
+├── assets/          # 资源文件，如GIF截图
+│   └── demo_screenshot.gif
+├── data/            # 实验数据
+│   └── mve_v7.4_colab_raw_data.csv  # N=180实跑数据 (CSV)
+├── demo_app.py      # Streamlit主应用
+├── requirements.txt # Python依赖
+├── README.md        # 项目文档
+└── utils/           # 工具模块 (NLP处理、模拟逻辑)
+    └── {e.g., scorer.py}  # 人工盲评辅助
 
 ## 4. 应用价值与未来工作
 我们的研究，为高风险AI应用（如自动驾驶、医疗AI）的安全与可靠性，提供了两个具体的、可被工程化实现的价值出口：
