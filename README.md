@@ -1,5 +1,9 @@
 # AI认知极限压力测试：一个用于诱发与诊断高级AI失败模式的计算框架
 **Cognitive Stress Test for LLMs: A Computational Framework for Inducing and Diagnosing Advanced Failure Modes**
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![Streamlit](https://img.shields.io/badge/streamlit-%E2%9C%93-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-green)
+[![DOI](https://zenodo.org/badge/1055628860.svg)](https://doi.org/10.5281/zenodo.17107980)
 
 > 🚀 _Live Demo: [点击此处，实时交互，探索AI的“认知崩溃”](https://traveler-elaina-ai-cognitive-collapse-demo.streamlit.app/)_
 > 
