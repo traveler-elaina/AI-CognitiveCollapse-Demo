@@ -36,23 +36,23 @@
 
 **3.2 在本地运行Demo**
 克隆本仓库：
-
-git clone [https://github.com/traveler-elaina/AI-CognitiveCollapse-Demo/](https://github.com/traveler-elaina/AI-CognitiveCollapse-Demo/)]
-cd [AI-CognitiveCollapse-Demo]
-
+```
+git clone https://github.com/traveler-elaina/AI-CognitiveCollapse-Demo
+cd AI-CognitiveCollapse-Demo
+```
 创建并激活虚拟环境 (推荐):
-
+```
 python -m venv .venv
 source .venv/bin/activate  # on Windows, use `.venv\Scripts\activate`
-
+```
 安装依赖：
-
+```
 pip install -r requirements.txt
-
+```
 运行应用：
-
+```
 streamlit run demo_app.py
-
+```
 快速上手，只需 streamlit run demo_app.py 即可体验AI的认知极限。
 
 
