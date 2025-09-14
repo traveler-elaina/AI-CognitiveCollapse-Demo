@@ -2,7 +2,8 @@
 **Cognitive Stress Test for LLMs: A Computational Framework for Inducing and Diagnosing Advanced Failure Modes**
 
 _探索 LLM 在高认知负荷下的行为，并可视化输出随任务复杂度的变化。_
-_[一个新的统一理论](https://github.com/traveler-elaina/Universal-Cognitive-Dynamics/blob/main/README.md)_
+
+_👉 [一个新的统一理论](https://github.com/traveler-elaina/Universal-Cognitive-Dynamics)_
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Streamlit](https://img.shields.io/badge/streamlit-%E2%9C%93-brightgreen)
